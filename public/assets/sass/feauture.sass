@@ -1,0 +1,64 @@
+@import variables
+
+.feature
+  padding-top: 15px
+  padding-bottom: 83px
+  box-sizing: border-box
+  &__title
+    margin-bottom: 22px
+    font-size: 22px
+    font-weight: 400
+    line-height: 60px 
+  &__card
+    padding: 15px 0
+    box-sizing: border-box
+    border-bottom: .5px solid $gray
+    &__picture
+      width: 246px
+      height: 180px
+      cursor: pointer
+      &--banner-1
+        background-image: url(../i/card-1.svg)
+        background-size: cover
+        background-repeat: no-repeat
+      &--banner-2
+        background-image: url(../i/card-2.svg)
+        background-size: cover
+        background-repeat: no-repeat
+      &--banner-3
+        background-image: url(../i/card-3.svg)
+        background-size: cover
+        background-repeat: no-repeat    
+    &__content
+      &__title
+        font-size: 30px
+        font-weight: 700
+        line-height: 44px
+        color: $dark
+        margin-bottom: 20px
+        cursor: pointer
+      &__subtitle
+        display: flex
+        align-items: center
+        margin-bottom: 17px
+        &__years
+          padding: 0 10px
+          box-sizing: border-box
+          background: $blue
+          color: $white
+          border-radius: 999px
+          font-size: 18px
+          font-weight: 900 
+          margin-right: 26px
+        &__label
+          font-size: 20px
+          font-weight: 400
+          color: $light
+          line-height: 29px
+      &__description
+        font-size: 16px
+        font-weight: 400
+        line-height: 23.5px
+        color: $dark
+
+

@@ -1,0 +1,23 @@
+.footer {
+  padding: 51px 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+.footer__logos__icons {
+  margin-right: 35px;
+}
+.footer__logos__icons:hover {
+  filter: drop-shadow(1px 1px 3px #00A8CC);
+}
+.footer__logos__icons:last-child {
+  margin-right: 0;
+}
+.footer__copyright {
+  margin-top: 26px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #21243D;
+  line-height: 20.5px;
+}
+
+/*# sourceMappingURL=footer.css.map */

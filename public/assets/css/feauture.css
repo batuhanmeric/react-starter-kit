@@ -1,0 +1,73 @@
+.feature {
+  padding-top: 15px;
+  padding-bottom: 83px;
+  box-sizing: border-box;
+}
+.feature__title {
+  margin-bottom: 22px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 60px;
+}
+.feature__card {
+  padding: 15px 0;
+  box-sizing: border-box;
+  border-bottom: 0.5px solid #E0E0E0;
+}
+.feature__card__picture {
+  width: 246px;
+  height: 180px;
+  cursor: pointer;
+}
+.feature__card__picture--banner-1 {
+  background-image: url(../i/card-1.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.feature__card__picture--banner-2 {
+  background-image: url(../i/card-2.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.feature__card__picture--banner-3 {
+  background-image: url(../i/card-3.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.feature__card__content__title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 44px;
+  color: #21243D;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.feature__card__content__subtitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 17px;
+}
+.feature__card__content__subtitle__years {
+  padding: 0 10px;
+  box-sizing: border-box;
+  background: #142850;
+  color: #ffffff;
+  border-radius: 999px;
+  font-size: 18px;
+  font-weight: 900;
+  margin-right: 26px;
+}
+.feature__card__content__subtitle__label {
+  font-size: 20px;
+  font-weight: 400;
+  color: #8695A4;
+  line-height: 29px;
+}
+.feature__card__content__description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  color: #21243D;
+}
+
+/*# sourceMappingURL=feauture.css.map */
