@@ -1,32 +1,11 @@
 .header {
-  padding-top: 25px;
-  padding-bottom: 71px;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  background: #ddd;
   box-sizing: border-box;
-}
-.header__content {
-  margin-top: 142px;
-}
-.header__content__title {
-  font-size: 44px;
-  font-weight: 700;
-  color: #000000;
-  margin-bottom: 40px;
-}
-.header__content__description {
-  font-size: 16px;
-  font-weight: 400;
-  color: #21243D;
-  line-height: 23.5px;
-  margin-bottom: 38px;
-}
-.header__content__picture {
-  width: 243px;
-  height: 243px;
-  background-image: url(../i/me.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 999px;
-  float: right;
 }
 
 /*# sourceMappingURL=header.css.map */

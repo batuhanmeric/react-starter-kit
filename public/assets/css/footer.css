@@ -1,23 +1,12 @@
 .footer {
-  padding: 51px 0;
-  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
   text-align: center;
-}
-.footer__logos__icons {
-  margin-right: 35px;
-}
-.footer__logos__icons:hover {
-  filter: drop-shadow(1px 1px 3px #00A8CC);
-}
-.footer__logos__icons:last-child {
-  margin-right: 0;
-}
-.footer__copyright {
-  margin-top: 26px;
-  font-size: 14px;
-  font-weight: 400;
-  color: #21243D;
-  line-height: 20.5px;
+  background: #ddd;
+  box-sizing: border-box;
 }
 
 /*# sourceMappingURL=footer.css.map */
