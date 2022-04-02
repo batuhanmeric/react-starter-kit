@@ -11,7 +11,7 @@ class Component extends React.PureComponent {
   render() {
     const { t } = this.props;
 
-    return <header className="header">Header Component</header>;
+    return <header className="header">Increase - Decrease App</header>;
   }
 }
 

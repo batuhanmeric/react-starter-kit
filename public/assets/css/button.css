@@ -1,0 +1,24 @@
+.btn {
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content-transition: 0.7s all;
+}
+.btn:hover {
+  transform: scale(1.08);
+  opacity: 0.9;
+}
+.btn__danger {
+  background: red;
+  margin-right: 30px;
+}
+.btn__success {
+  background: #34bf49;
+  margin-left: 30px;
+}
+
+/*# sourceMappingURL=button.css.map */

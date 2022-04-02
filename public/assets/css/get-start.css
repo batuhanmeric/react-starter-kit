@@ -1,4 +1,27 @@
-.get-start {
+.btn {
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content-transition: 0.7s all;
+}
+.btn:hover {
+  transform: scale(1.08);
+  opacity: 0.9;
+}
+.btn__danger {
+  background: red;
+  margin-right: 30px;
+}
+.btn__success {
+  background: #34bf49;
+  margin-left: 30px;
+}
+
+.counter {
   background: #555;
   color: #fff;
   font-size: 22px;
@@ -8,6 +31,14 @@
   line-height: 30px;
   width: 40%;
   margin-top: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.counter__group {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
 }
 
 /*# sourceMappingURL=get-start.css.map */

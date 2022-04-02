@@ -2290,6 +2290,7 @@
 body {
   margin: 0;
   padding: 0;
+  background: #49c0b6;
 }
 
 a {
@@ -2305,8 +2306,14 @@ a {
   text-align: center;
   position: sticky;
   top: 0;
-  background: #ddd;
+  background: rgba(185, 224, 8, 0.8784313725);
   box-sizing: border-box;
+  font-size: 22px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-family: "Permanent Marker", cursive;
+  letter-spacing: 0.5px;
+  line-height: 28px;
 }
 
 .footer {
@@ -2326,7 +2333,30 @@ a {
   justify-content: center;
 }
 
-.get-start {
+.btn {
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content-transition: 0.7s all;
+}
+.btn:hover {
+  transform: scale(1.08);
+  opacity: 0.9;
+}
+.btn__danger {
+  background: red;
+  margin-right: 30px;
+}
+.btn__success {
+  background: #34bf49;
+  margin-left: 30px;
+}
+
+.counter {
   background: #555;
   color: #fff;
   font-size: 22px;
@@ -2336,6 +2366,37 @@ a {
   line-height: 30px;
   width: 40%;
   margin-top: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.counter__group {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.btn {
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content-transition: 0.7s all;
+}
+.btn:hover {
+  transform: scale(1.08);
+  opacity: 0.9;
+}
+.btn__danger {
+  background: red;
+  margin-right: 30px;
+}
+.btn__success {
+  background: #34bf49;
+  margin-left: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
